@@ -1,6 +1,6 @@
 #import <QuartzCore/QuartzCore.h>
 #import "MGLUserLocationHeadingIndicator.h"
-@import Mapbox;
+@import MGLRCT;
 
 @interface MGLUserLocationHeadingArrowLayer : CAShapeLayer <MGLUserLocationHeadingIndicator>
 

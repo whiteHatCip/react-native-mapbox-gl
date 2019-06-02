@@ -9,7 +9,7 @@
 #import <React/RCTBridge.h>
 #import "RCTMGLSource.h"
 
-@import Mapbox;
+@import MGLRCT;
 
 @interface RCTMGLShapeSource : RCTMGLSource
 

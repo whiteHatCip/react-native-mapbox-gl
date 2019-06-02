@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@import Mapbox;
+@import MGLRCT;
 
 @interface RCTMGLLight : UIView
 

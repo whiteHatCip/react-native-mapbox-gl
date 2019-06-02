@@ -1,5 +1,5 @@
 #import <QuartzCore/QuartzCore.h>
-@import Mapbox;
+@import MGLRCT;
 
 @protocol MGLUserLocationHeadingIndicator <NSObject>
 

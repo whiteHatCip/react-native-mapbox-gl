@@ -30,7 +30,7 @@
 		C4C87B911F9142FB0064AE95 /* RCTMGLCallout.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C87B901F9142FB0064AE95 /* RCTMGLCallout.m */; };
 		C4C87B941F9143DA0064AE95 /* RCTMGLCalloutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C87B931F9143DA0064AE95 /* RCTMGLCalloutManager.m */; };
 		C4D144421F4E16F600396F26 /* RCTMGL.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D144411F4E16F600396F26 /* RCTMGL.m */; };
-		C4D144431F4E16F600396F26 /* RCTMGL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4D144401F4E16F600396F26 /* RCTMGL.h */; };
+		C4D144431F4E16F600396F26 /* RCTMGL.h in Copy Files */ = {isa = PBXBuildFile; fileRef = C4D144401F4E16F600396F26 /* RCTMGL.h */; };
 		C4D1444C1F4E178100396F26 /* RCTMGLMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D1444B1F4E178100396F26 /* RCTMGLMapView.m */; };
 		C4D1444F1F4E181100396F26 /* RCTMGLMapViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D1444E1F4E181100396F26 /* RCTMGLMapViewManager.m */; };
 		C4D144531F4E190C00396F26 /* MGLModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D144521F4E190C00396F26 /* MGLModule.m */; };
@@ -66,14 +66,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C4D1443B1F4E16F600396F26 /* CopyFiles */ = {
+		C4D1443B1F4E16F600396F26 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				C4D144431F4E16F600396F26 /* RCTMGL.h in CopyFiles */,
+				C4D144431F4E16F600396F26 /* RCTMGL.h in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -461,7 +462,7 @@
 			buildPhases = (
 				C4D144391F4E16F600396F26 /* Sources */,
 				C4D1443A1F4E16F600396F26 /* Frameworks */,
-				C4D1443B1F4E16F600396F26 /* CopyFiles */,
+				C4D1443B1F4E16F600396F26 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -492,6 +493,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = C4D144341F4E16F600396F26;

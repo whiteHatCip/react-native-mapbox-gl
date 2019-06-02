@@ -7,7 +7,7 @@
 //
 
 #import "RCTMGLLayer.h"
-@import Mapbox;
+@import MGLRCT;
 
 @interface RCTMGLLineLayer : RCTMGLLayer
 

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <React/RCTBridge.h>
 
-@import Mapbox;
+@import MGLRCT;
 
 @interface RCTMGLLayer<T> : UIView
 

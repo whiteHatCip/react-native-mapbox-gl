@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@import Mapbox;
+@import MGLRCT;
 
 extern const CGFloat MGLUserLocationAnnotationDotSize;
 extern const CGFloat MGLUserLocationAnnotationHaloSize;

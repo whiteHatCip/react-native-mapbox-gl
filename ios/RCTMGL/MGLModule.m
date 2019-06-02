@@ -11,7 +11,7 @@
 #import "MGLOfflineModule.h"
 #import "CameraMode.h"
 #import "RCTMGLSource.h"
-@import Mapbox;
+@import MGLRCT;
 
 @implementation MGLModule
 

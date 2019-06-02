@@ -7,7 +7,7 @@
 //
 
 #import "RCTMGLSource.h"
-@import Mapbox;
+@import MGLRCT;
 
 @interface RCTMGLVectorSource : RCTMGLSource
 

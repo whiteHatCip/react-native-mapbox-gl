@@ -1,0 +1,6 @@
+framework module MGLRCT {
+  umbrella header "MGLRCT.h"
+
+  export *
+  module * { export * }
+}

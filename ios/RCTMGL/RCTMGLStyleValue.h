@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@import Mapbox;
+@import MGLRCT;
 
 @interface RCTMGLStyleValue : NSObject
 

@@ -691,8 +691,13 @@ public class RCTMGLMapView extends MapView implements
 
         switch (changed) {
             case REGION_WILL_CHANGE:
+                eventType = EventTypes.REGION_WILL_CHANGE;
+                break;
             case REGION_IS_CHANGING:
+                eventType = EventTypes.REGION_IS_CHANGING;
+                break;
             case REGION_DID_CHANGE:
+                eventType = EventTypes.REGION_DID_CHANGE;
                 break;
             case REGION_WILL_CHANGE_ANIMATED:
                 mCameraChangeTracker.setIsAnimating(true);

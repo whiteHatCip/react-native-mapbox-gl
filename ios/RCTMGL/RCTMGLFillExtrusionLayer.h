@@ -7,7 +7,7 @@
 //
 
 #import "RCTMGLLayer.h"
-@import Mapbox;
+@import MGLRCT;
 
 @interface RCTMGLFillExtrusionLayer<MGLFillExtrusionStyleLayer> : RCTMGLLayer
 
